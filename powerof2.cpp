@@ -8,8 +8,8 @@ while(t--)
 {
  int n;
  cin>>n;
- if((n & (n-1))==0) cout<<"power"<<endl;
- else cout<<"non"<<endl;   
+ bool num= (n & (n-1))==0; 
+ cout<<num<<endl;  
 }
 return 0;
 }
